@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  shetuanplus
+//
+//  Created by Jiao Liu on 7/29/15.
+//  Copyright (c) 2015 Jiao Liu. All rights reserved.
+//
+
+#ifndef shetuanplus_PrefixHeader_pch
+#define shetuanplus_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import "Config.h"
+#import "Marco.h"
+#import "MobClick.h"
+
+//FrameWork Header
+#import "STHUD.h"
+#import "Masonry.h"
+#import "MagicalRecord.h"
+//Local OC Header
+#import "STHTTPRequest.h"
+#import "STUserManager.h"
+#import "STEngine.h"
+#import "UIImage+STImage.h"
+#else
+
+
+
+#endif
+
+#endif

@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  ShetuanPlus
+
+  Created by DUSTSKY on 8/31/15.
+  Copyright (c) 2015 Jiao Liu. All rights reserved.
+*/
+
+
+/**
+ *  通用
+ */
+"STCommitData"              = "提交中...";
+"STCommitSuccess"           = "修改成功";
+/**
+ *  登录注册
+ */
+
+"STAccountInvalid"          = "账号暂支持手机，邮箱";
+"STAccountIsNil"            = "请输入账号";
+"STAccountExist"            = "账号已注册，请登录";
+"STAccountNoExist"          = "该账号未注册";
+"STPwdIsNil"                = "请输入密码";
+"STPwdConfirmIsNil"         = "请再次输入密码";
+"STRegPwdDifferent"         = "密码输入不一致，请重新输入";
+"STGetVerifyCodeSuccess"    = "验证码获取成功，请注意查收";
+"STVerifyIsvaild"           = "验证码格式不正确";
+"STVerifyIsNil"             = "请输入验证码";
+"STLogining"                = "登录中...";
+"STVerifying"               = "获取验证码...";
+"STLoginSuccess"            = "登录成功";
+"STRegisterSuccess"         = "注册成功";
+"STLoginNeed"               = "未登录，请登录之后使用";
+"STPwdModifySuccess"        = "密码修改成功";
+/**
+ *  服务器
+ */
+"STServerWrong" = "服务器异常，请稍候再试";
+
+/**
+ *  个人中心
+ */
+
+"STPersonLoading" = "请稍候，努力加载中";
+"STPersonUsernameIsNil" = "请输入姓名";
